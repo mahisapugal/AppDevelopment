@@ -1,0 +1,19 @@
+.brand-logo{
+    text-align: right;
+  }
+  .brand-logo {
+    text-align: center; /* Center-align the text horizontally */
+    font-weight: bold;
+    margin-left: 500px;
+     /* Make the text bold */
+  }
+  
+#user
+{
+  padding-top: 100px;
+  color:black;
+}
+.nm{
+    background-color: blueviolet;
+
+}
