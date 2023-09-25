@@ -1,0 +1,25 @@
+/* Cart.css */
+.cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    position: absolute; /* Position the cart absolutely */
+    top: 20px; /* Adjust the top value to control the vertical position */
+    right: 20px; /* Adjust the right value to control the horizontal position */
+    z-index: 1; /* Ensure the cart appears above other content */
+  }
+  
+  .cart h2 {
+    margin: 0;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 8px;
+  }
+  

@@ -1,0 +1,51 @@
+.a {
+  max-width: 2000px; /* Set a maximum width for the page container */
+  margin: 0 auto; /* Center the page horizontally */
+  padding: 20px; /* Add padding to the page container */
+  background-color: #f9f4f4;
+  margin: 0;
+  height:100vh;
+ background-repeat: no-repeat;
+  background-size: cover;
+  
+   /* Set a background color for the page */
+}
+.brand-logo{
+  text-align: right;
+}
+#user
+{
+padding-top: 0px;
+color:black;
+font-size: 50px;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+#a{
+  font-family: "Lucida Console", "Courier New", monospace;
+font-size: 60px;
+}
+.navnav{
+background-color: rgb(28, 22, 55);
+width: 100%;
+}
+.brand-logo{
+  font-family: "Lucida Console", "Courier New", monospace;/* Specify the font family */
+   /* Specify the font size */
+  font-weight: bold; /* Specify the font weight (e.g., normal, bold, etc.) */
+  font-style: italic;
+
+}
+.scroll-container {
+  overflow-y: scroll; /* Add vertical scrollbar when content exceeds container height */
+  height: 300px; /* Set a fixed height for the scrollable area */
+   /* Optional: Add borders or other styling */
+}
+.b {
+  background-image: url('../Asset/o.jpg');
+  margin: 0;
+    height:110vh;
+   background-repeat: no-repeat;
+    background-size: cover;
+  padding: 0px; /* Optional: Add padding to the content */
+  /* Add your content styles here */
+}
