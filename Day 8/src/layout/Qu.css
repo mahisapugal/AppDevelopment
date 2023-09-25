@@ -1,0 +1,73 @@
+.Qu {
+    
+    /* Add the background image URL here */
+    background-image: url('../Asset/bing.jpg');
+    /* Set background properties for size and position */
+    background-size: cover; /* Adjust as needed to control the image size */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the background image */
+   
+    
+  }
+  /* Add white and bold styles for FAQ data within the FAQ component */
+.faq-question-text {
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the FAQ container */
+  .faq-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Add a background color for better readability */
+  }
+  
+  /* Style FAQ items */
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .faq-question {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .faq-question:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .open .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .open .faq-answer {
+    display: block;
+  }
+  /* Add white and bold styles for FAQ data within the FAQ component */
+
+  
