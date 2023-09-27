@@ -1,0 +1,13 @@
+.privacy-policy {
+    background-image: url('../Asset/bing.jpg'); /* Replace 'background-image.jpg' with your actual image file path */
+  background-size: cover; /* Adjust as needed to control the image size */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
